@@ -1,0 +1,68 @@
+{
+  "faq_categories": {
+    "tourist_attractions": {
+      "victoria_falls": {
+        "question": "Tell me about Victoria Falls",
+        "answer": "Victoria Falls is one of the world's largest and most spectacular waterfalls, known locally as 'Mosi-oa-Tunya' (The Smoke That Thunders). Located on the Zambezi River between Zimbabwe and Zambia, it's over 1,700 meters wide and 108 meters high. It's a UNESCO World Heritage Site and one of the Seven Natural Wonders of the World.",
+        "keywords": ["victoria falls", "waterfall", "mosi oa tunya", "zambezi"]
+      },
+      "great_zimbabwe": {
+        "question": "What are the Great Zimbabwe Ruins?",
+        "answer": "The Great Zimbabwe Ruins are an ancient stone city that was the capital of the Kingdom of Zimbabwe during the Late Iron Age. Dating back to the 11th century, these impressive ruins cover nearly 800 hectares and represent the largest ancient structure in sub-Saharan Africa.",
+        "keywords": ["great zimbabwe", "ruins", "ancient", "stone city", "archaeology"]
+      },
+      "hwange_national_park": {
+        "question": "Tell me about Hwange National Park",
+        "answer": "Hwange National Park is Zimbabwe's largest game reserve, covering 14,600 square kilometers. It's home to over 100 mammal species and 400 bird species, including one of Africa's largest elephant populations. The park offers excellent opportunities to see the Big Five.",
+        "keywords": ["hwange", "national park", "safari", "wildlife", "elephants"]
+      },
+      "mana_pools": {
+        "question": "What is Mana Pools National Park?",
+        "answer": "Mana Pools National Park is a UNESCO World Heritage site known for its wildlife concentrations along the Zambezi River. It's famous for walking safaris and canoeing adventures.",
+        "keywords": ["mana pools", "walking safari", "canoeing", "zambezi"]
+      },
+      "eastern_highlands": {
+        "question": "What are the Eastern Highlands?",
+        "answer": "The Eastern Highlands is a mountainous region along the Mozambique border, featuring stunning scenery, tea plantations, and some of Zimbabwe's best hiking trails through misty forests.",
+        "keywords": ["eastern highlands", "mountains", "hiking", "nyanga", "bvumba"]
+      }
+    },
+    "travel_info": {
+      "best_time": {
+        "question": "When is the best time to visit Zimbabwe?",
+        "answer": "The best time to visit Zimbabwe is during the dry season from May to October. During this period, weather is mild, wildlife viewing is excellent as animals gather around water sources. Victoria Falls has the best flow from February to July.",
+        "keywords": ["best time", "when to visit", "weather", "season"]
+      },
+      "visa_requirements": {
+        "question": "What are the visa requirements for Zimbabwe?",
+        "answer": "Visa requirements vary by nationality. Many countries can obtain visas on arrival. Single entry visas cost $30 USD, double entry $45 USD. Always check with the Zimbabwe Embassy for the most current requirements.",
+        "keywords": ["visa", "requirements", "entry", "passport"]
+      },
+      "currency": {
+        "question": "What currency is used in Zimbabwe?",
+        "answer": "Zimbabwe uses the Zimbabwe Dollar (ZWL) and US Dollars are widely accepted. Credit cards are accepted in major hotels. It's recommended to carry some US cash for smaller establishments.",
+        "keywords": ["currency", "money", "us dollars", "cash", "payments"]
+      },
+      "safety": {
+        "question": "Is Zimbabwe safe for tourists?",
+        "answer": "Zimbabwe is generally safe for tourists, especially in popular tourist areas and national parks. Exercise normal precautions as you would in any foreign country. Avoid displaying valuables and use registered tour operators.",
+        "keywords": ["safety", "safe", "security", "travel advisory"]
+      }
+    },
+    "culture_language": {
+      "languages": {
+        "question": "What languages are spoken in Zimbabwe?",
+        "answer": "Zimbabwe has 16 official languages! The main languages are Shona (about 70%), Ndebele (about 20%), and English (official business language).",
+        "keywords": ["languages", "shona", "ndebele", "english", "official languages"]
+      },
+      "greetings": {
+        "question": "How do I greet people in Zimbabwe?",
+        "answer": "Common greetings vary. In Shona, say 'Mhoro' (Hello). In Ndebele, use 'Salibonani'. English greetings are also widely understood.",
+        "keywords": ["greetings", "hello", "mhoro", "salibonani", "culture"]
+      }
+    }
+  },
+  "general_responses": {
+    "unknown": "Sorry, I could not answer that. Perhaps try asking something within my scope, i.e., 'What is the best time to visit Zimbabwe?'"
+  }
+}

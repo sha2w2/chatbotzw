@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
         <h1>Welcome to Zimbabwe Tourism Guide</h1>
-        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#climate">Climate</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#moreinfo">More Information</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Main Content Section -->
     <main>
-        <!-- About Zimbabwe Section -->
         <section id="about">
             <h2>Discover Zimbabwe</h2>
             
@@ -30,7 +35,37 @@
             </div>
         </section>
 
-        <!-- Tourist Attractions Section -->
+        <section id="climate">
+            <h2>Zimbabwe's Climate Seasons</h2>
+            <p>Plan your trip according to these seasons:</p>
+            <table class="climate-table">
+                <thead>
+                    <tr>
+                        <th>Season</th>
+                        <th>Months</th>
+                        <th>Characteristics</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Wet Season</td>
+                        <td>November to March</td>
+                        <td>Hot and humid, with frequent rainfall, often in the form of afternoon thunderstorms.</td>
+                    </tr>
+                    <tr>
+                        <td>Dry Season</td>
+                        <td>April to October</td>
+                        <td>Generally cooler and drier, with sunny but cold evenings and early mornings, especially from June to August.</td>
+                    </tr>
+                    <tr>
+                        <td>Hot Dry Season</td>
+                        <td>August to October</td>
+                        <td>A period of progressively hotter and drier weather leading up to the return of the rains in November.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
         <section id="attractions">
             <h2>Top 5 Tourist Attractions</h2>
             
@@ -61,7 +96,6 @@
                         <p>Zimbabwe's largest game reserve, spanning over 14,600 square kilometers and home to one of Africa's largest elephant populations along with diverse wildlife.</p>
                     </div>
                     <img src="assets/images/hwange.jpg" alt="Hwange National Park" class="attraction-image">
-                </div>
             </article>
 
             <article class="attraction">
@@ -81,36 +115,36 @@
                         <p>A mountainous region along the Mozambique border featuring stunning scenery, tea plantations, and some of Zimbabwe's best hiking trails through misty forests.</p>
                     </div>
                     <img src="assets/images/eastern highlands.jpg" alt="Eastern Highlands" class="attraction-image">
+        </div>
                 </div>
             </article>
         </section>
         
-        <!-- For more info -->
-        <section id="contact">
+        <section id="moreinfo">
            <h2>For More Information</h2>
-           <p>Visit the official Zimbabwe tourism website:</p>
+           <p>For more information, visit:</p>
            <p><a href="https://zimbabwetourism.net/" target="_blank">https://zimbabwetourism.net/</a></p>
         </section>
     </main>
 
-    <!-- Chatbot Interface -->
-    <div class="chatbot-container">
+    <button class="chat-toggle-btn" onclick="toggleChat()">💬Questions? Click here and ask</button>
+
+    <div class="chatbot-container" id="chatbot">
         <div class="chatbot-header">
-            <h3>Chatbot</h3>
-            <button class="close-chat">×</button>
+            <h3>Zimbabwe Guide Bot</h3>
+            <button class="close-chat" onclick="toggleChat()">×</button>
         </div>
-        <div class="chat-messages">
+        <div class="chat-messages" id="chatMessages">
             <div class="bot-message">
-                <p>Any questions? Feel free to ask here!</p>
+                <p>Hello! I'm your Zimbabwe tourism assistant. Ask me about attractions, visas, or culture!</p>
             </div>
         </div>
         <div class="chat-input">
             <input type="text" id="user-input" placeholder="Ask about tourist attractions...">
-            <button id="send-btn">Send</button>
+            <button id="send-btn" onclick="sendMessage()">Send</button>
         </div>
     </div>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; Shanice C Sagonda</p>
         <p>2025 WEB PROGRAMMING COURSE</p>
